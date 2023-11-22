@@ -106,3 +106,7 @@ a {
     padding: 0;
     cursor: pointer;
 }
+
+.text-white{
+    color: var(--text-white);
+}
