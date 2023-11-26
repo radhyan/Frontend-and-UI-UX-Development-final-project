@@ -25,9 +25,15 @@
     color: var(--secondary);
 }
 
+.table{
+    height: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .tg{
     margin: auto;
-    width: 960px;
+    width: 1080px;
     color: var(--text-white);
     font-size: var(--large);
     font-weight: 700;
