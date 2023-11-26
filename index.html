@@ -11,15 +11,15 @@
 <body>
     <!-- Navigation Bar -->
     <header>
-        <img class="logo-nav" src="/Assets/logo.svg" alt="">
+        <a href="./index.html"><img href="" class="logo-nav" src="/Assets/logo.svg" alt=""></a>
         <nav>
             <ul class="nav-items">
-                <li class="nav-item semi-bold"><a href="">About</a></li>
-                <li class="nav-item semi-bold"><a href="#">Speakers</a></li>
-                <li class="nav-item semi-bold"><a href="#">Agenda</a></li>
+                <li class="nav-item semi-bold"><a href="#about">About</a></li>
+                <li class="nav-item semi-bold"><a href="#speaker">Speakers</a></li>
+                <li class="nav-item semi-bold"><a href="#agenda">Agenda</a></li>
                 <div class="underBar"></div>
             </ul>
-            <a class="join bold" href="#">Join Now</a>
+            <a class="join bold" href="/joinNow.html">Join Now</a>
         </nav>
     </header>
     <!-- Hero -->
@@ -51,10 +51,9 @@
                 </div>
             </div>
         </section>
-
     </div>
     <!-- About -->
-    <div class="about-frame">
+    <div id="about" class="about-frame">
         <div class="aboutTitle-frame">
             <h1 class="content-title">About</h1>
             <div class="line">
@@ -97,7 +96,7 @@
 
     <!-- Speakers -->
       
-    <div class="speaker-Title-frame">
+    <div id="speaker" class="speaker-Title-frame">
         <h1 class="content-title">Speakers</h1>
         <div class="line">
         </div>
@@ -166,9 +165,9 @@
         
     </div>
 
-    <!-- Location -->
-      
-        
+    <!-- Agenda -->
+
+    <!-- Location --> 
     <div class="location-container">
         <div class="speaker-Title-frame">
             <h1 class="content-title">Location</h1>
@@ -181,6 +180,40 @@
             <div class="location-city">Bern, Switzerland</div>
         </div>
     </div>
+
+    <!-- Join Now -->
+    <div class="joinNow">
+        <img class="joinNow-background" src="/Assets/joinNowBg.png" alt="">
+        <div class="joinNow-container">
+            <div class="speaker-Title-frame ">
+                <h1 class="text-white">Join Now</h1>
+                <div class="line">
+                </div>
+            </div>  
+            <p class="joinNow-content"> Don't miss the opportunity to explore the world <br> of Artificial Intelligence to level up your business</p>
+            <div class="button-container">
+                <div class="attend-box" style="attend-container">
+                    <h4 class="attend-text text-white">Attend in <br> Person</h4>
+                    <h5 class="limited-seat">Limited Seat</h5>
+                    <div class="attend-img" style="attend-imgstyle">
+                        <img src="/Assets/imgAIP.png" alt="Image Attend In Person">
+                    </div> 
+                    <a href="/regisAttend.html" class="attend-button">Register</a>
+                </div>
+                
+                <div class="attend-box" style="attend-container">
+                    <h4 class="attend-text text-white">Attend Online</h4>
+                    <h5 class="attend-text" style="margin-bottom: 2rem"><br></h5>
+                    
+                    <div class="attend-img img-online" style="attend-imgstyle">
+                        <img src="/Assets/imgAO.png" alt="Image Attend Online">
+                    </div> 
+                    <a href="/regisOnline.html" class="attend-button">Register</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
 
     <script src="./Javascript/expand.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/less" ></script>
