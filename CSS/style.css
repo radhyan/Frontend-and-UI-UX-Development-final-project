@@ -122,6 +122,7 @@
     justify-content: flex-start;
     align-items: center;
     display: flex;
+    margin-top: 4em;
 }
 
 .content-title{
@@ -209,7 +210,7 @@
     justify-content: flex-start;
     align-items: center;
     display: flex;
-    margin: 4em 0em 2em 0em;
+    margin: 8em 0em 2em 0em;
 }
 .speakers-container {
     display: flex;
@@ -520,4 +521,64 @@ form .fields .input-field{
 
 .attend-heading {
     max-width: auto;
+}
+
+.bdy{
+    background-image: url("/Assets/imageup.png"), url("/Assets/imagelow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    align-items: center;
+    margin-top: 4em;
+    padding-bottom: 12em;
+}
+
+.sched{
+    text-align: center;
+    color: var(--text-white);
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.date{
+    margin: auto;
+    border-radius: 25px;
+    background: white;
+    padding: 5px;
+    width: 200px;
+}
+
+.date p{
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.tg{
+    margin: auto;
+    width: 960px;
+    color: var(--text-white);
+    font-size: var(--large);
+    font-weight: 700;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+
+tr.highlight{
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px white;
+}
+
+table {
+    gap: 2em;
+}
+
+.tr {
+    margin-bottom: 1em;;
 }
