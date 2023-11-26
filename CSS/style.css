@@ -1,5 +1,5 @@
 .hero {
-    
+    height: 45em;
 }
 
 .hero-background {
@@ -19,14 +19,14 @@
     height: auto;
     /* padding: 6em 0; */
     align-items: center;
-    gap: 12em;
-    margin: 12em auto;
+    margin: 6em auto;
 }
 
 .hero-article {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: auto;
     gap: 1em;
 }
 
@@ -96,3 +96,110 @@
     object-fit: cover;
     border-radius: 1em;
 }
+
+/* About */
+
+.about-frame{
+    display: flex;
+    flex-direction: Column;
+    justify-Content: center;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 8em;
+}
+
+.topic-frame{
+    display: flex;
+    flex-direction: Column;
+    justify-Content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.aboutTitle-frame{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.content-title{
+    color: var(--primary); 
+    font-family: Helvetica; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.line{
+    width: 300px; 
+    margin-top: .5em;
+    height: 1em; 
+    background-color: var(--secondary);
+}
+
+.aboutContent-box{ 
+    margin-top: 2em;
+    width : 90%;
+    text-align: justify;
+    color: var(--text-black);
+    font-size: var(--large);
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.topic-frame {
+    overflow: hidden;
+}
+
+.scroll-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 90%;
+    gap: 1em;
+}
+
+.topic-title-box{
+    width: 334px;
+    height: 115px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 12px; 
+}
+
+
+.topic-container{
+    display: block;
+    z-index: 10;
+    width: 479px;
+    height: 342px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(2, 127, 140, 0.00) -31.31%, rgba(2, 127, 140, 0.00) 55.1%, #027F8C 99.93%);
+}
+
+.topic-img {
+    position:relative;
+    width: 479px;
+    height: 342px;
+    border-radius: 20px;
+    object-fit: fill;
+    z-index: -1;
+}
+
+
+.topic-text{
+    color: white;
+    font-family: Helvetica;
+    font-weight:700;
+    font-size: 32px;
+    word-wrap: break-word;
+    padding: 1em;
+    bottom:0;
+    position: absolute;
+}
+
+
