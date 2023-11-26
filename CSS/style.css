@@ -52,7 +52,7 @@
 }
 
 .line-container {
-    background-color: #ffffff;
+    background-color: var(--white);
     display: inline-block;
 }
 
@@ -74,7 +74,7 @@
     border-radius: 8px;
     margin-top: 16px;
     min-height: 490px;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .container form .form{
