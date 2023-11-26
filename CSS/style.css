@@ -564,6 +564,43 @@ form .fields .input-field{
     border-style: hidden;
 }
 
+.sched{
+    text-align: center;
+    color: var(--text-white);
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.date{
+    margin: auto;
+    border-radius: 25px;
+    background: white;
+    padding: 5px;
+    width: 200px;
+}
+
+.date p{
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.table{
+    height: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.tg{
+    margin: auto;
+    width: 1080px;
+    color: var(--text-white);
+    font-size: var(--large);
+    font-weight: 700;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
 td{
     padding-top: 12px;
     padding-bottom: 12px;
@@ -573,12 +610,4 @@ td{
 tr.highlight{
     border-radius: 10px;
     box-shadow: 0 0 0 2px white;
-}
-
-table {
-    gap: 2em;
-}
-
-.tr {
-    margin-bottom: 1em;;
 }
