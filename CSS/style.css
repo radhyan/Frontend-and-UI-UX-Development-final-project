@@ -300,11 +300,12 @@
 
 .joinNow {
     margin: 6em 0;
+    height: 100%;
 }
 
-.joinNow-page {
+/* .joinNow-page {
     margin: none;
-}
+} */
 .negative-one {
     top: -1px;
 }
@@ -402,7 +403,7 @@ form .fields .input-field{
 
 .joinNow-background {
     /* background-image: url(/Assets/joinNowBg.png); */
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
@@ -616,4 +617,77 @@ td{
 tr.highlight{
     border-radius: 10px;
     box-shadow: 0 0 0 2px white;
+}
+
+footer {
+    margin-top: 12em;
+    padding: 1em 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.productList {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footerText {
+    color: var(--text-white);
+}
+
+li.productItem {
+    margin-top: 1em;
+}
+.companyList {
+    display: flex;
+    flex-direction: column;
+}
+li.companyItem {
+    margin-top: 1em;
+}
+.additional {
+    margin-top: 2em;
+}
+.vl {
+    border-left: 2px solid #fcfcfc;
+    height: 220px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5em;
+    margin-top: -.5em;
+}
+
+.formHead {
+    margin-bottom: 1em;
+}
+
+.message {
+    margin-bottom: 1em;
+    margin-top: 1.25em;
+}
+.emailInput, .messageInput {
+    font-size: var(--small);
+    letter-spacing: .2em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #fcfcfc;
+    border-radius: 1em;
+}
+
+.submit {
+    font-size: var(--small);
+    background-color: #fcfcfc;
+    letter-spacing: .2em;
+    padding: 1em;
+    border: 1px solid #fcfcfc;
+    border-radius: 1em;
+    cursor: pointer;
+    align-items: center;
 }
