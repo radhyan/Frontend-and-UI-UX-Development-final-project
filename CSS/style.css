@@ -51,4 +51,108 @@
     color: var(--text-white);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #ffffff;
+}
 
+header {
+    background-color: #ffffff;
+    color: #101C40;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    border-bottom: 10px solid #8C0343;
+    display: inline-block;
+}
+
+
+.speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.speaker {
+    text-align: center;
+    margin: 20px;
+}
+
+.speaker img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.speaker h3{
+    margin: 10px 0;
+    color: var(--Black, #1C1C1C);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.speaker p {
+    color: var(--Black, #1C1C1C);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.location{
+    position: relative;
+    width: 1288px;
+    height: 720px;
+    flex-shrink: 29;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(32, 34, 45, 0.00) 0%, #101C40 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.location-venue{
+    position: absolute;
+    bottom: 60px; /* Adjusted the bottom value */
+    left: 20px; /* Adjusted the left value */
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px; /* Adjusted font size */
+    font-weight: bold;
+    line-height: normal;
+    text-align: left;
+    z-index: 1;
+}
+
+.location-city {
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    text-align: left;
+    z-index: 1;
+}
